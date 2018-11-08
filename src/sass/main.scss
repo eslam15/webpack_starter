@@ -1,0 +1,14 @@
+// Bootstrap 4
+@import "~bootstrap/scss/bootstrap";
+// Slick Carousel
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+// Global Components
+@import "global-components/colors";
+@import "global-components/public";
+@import "global-components/fonts";
+// components
+@import "components/navbar";
+@import "components/gallery";
+@import "components/skills";
+@import "components/pricing";

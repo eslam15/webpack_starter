@@ -1,0 +1,57 @@
+.main {
+    padding: 15px 0;
+    h1 {
+        font-weight: bold;
+    }
+    .tabs {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 5px solid $borderColor;
+        .nav-tabs {
+            margin-left: 15px;
+            .nav-link {
+                color: $black;
+                background-color: $white;
+                &.active {
+                    color: $white;
+                    background-color: $black;
+                }
+            }
+        }
+    }
+    .gallery-row {
+        padding: 15px 0;
+        .content {
+            background: $white;
+            margin-bottom: 10px;
+            img {
+                opacity: 1;
+                transition: 0.2s opacity;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+            .text {
+                padding: 15px;
+                h6 {
+                    font-weight: bold;
+                }
+                p {
+                    font-size: 16px;
+                    margin: 0;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+    .pagination {
+        justify-content: center;
+        li {
+            .page-link {
+                color: $white;
+                background-color: $black;
+            }
+        }
+    }
+}
